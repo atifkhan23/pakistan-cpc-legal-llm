@@ -1,0 +1,29 @@
+# Model weights and checkpoints (published on Hugging Face instead)
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+qwen25-7b-cpc-lora/
+
+# Large archives
+*.zip
+
+# Copyrighted source text and the (unreleased) dataset
+Raw corpus*/
+for_claude_browser/
+data/*.json
+data/*.jsonl
+kb.json
+per_example*.csv
+
+# Secrets
+.env
+client_secret*.json
+*token*.txt
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/

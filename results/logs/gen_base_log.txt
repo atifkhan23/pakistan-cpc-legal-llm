@@ -1,0 +1,26 @@
+W1020 19:34:46.211000 574 torch/distributed/run.py:851] 
+W1020 19:34:46.211000 574 torch/distributed/run.py:851] *****************************************
+W1020 19:34:46.211000 574 torch/distributed/run.py:851] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1020 19:34:46.211000 574 torch/distributed/run.py:851] *****************************************
+[base rank 0] 123 questions to answer (0 already done)
+[base rank 1] 123 questions to answer (0 already done)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.24s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.26s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.82s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.84s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:14<00:04,  4.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.54s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.46s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.58s/it]
+[base rank 1] 16/123
+[base rank 0] 16/123
+[base rank 1] 32/123
+[base rank 0] 32/123
+[base rank 1] 48/123
+[base rank 0] 48/123
+[base rank 1] 64/123
+[base rank 0] 64/123
+[base rank 1] 80/123
+[base rank 0] 80/123
+[base rank 1] 96/123
+[base rank 0] 96/123
+[base rank 1] 112/123
+[base rank 0] 112/123
+[base rank 1] 123/123
+[base rank 1] DONE
+[base rank 0] 123/123
+[base rank 0] DONE

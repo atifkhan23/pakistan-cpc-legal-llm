@@ -1,0 +1,15 @@
+torch
+transformers==4.51.3
+peft==0.15.2
+trl==0.17.0
+accelerate==1.6.0
+bitsandbytes==0.45.5
+datasets==3.5.0
+evaluate
+rouge_score
+bert_score
+sentence-transformers==3.4.1
+rank_bm25
+scipy
+pandas
+matplotlib

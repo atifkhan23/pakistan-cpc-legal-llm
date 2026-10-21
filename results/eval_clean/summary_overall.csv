@@ -1,0 +1,20 @@
+,Base Qwen2.5-7B,Fine-tuned (QLoRA)
+n,246.0,246.0
+ROUGE-1,0.4770445303803177,0.5359923587843224
+ROUGE-2,0.16622488658332746,0.21339149511639116
+ROUGE-L,0.23389730201468656,0.2659925009876528
+BERTScore-F1,0.8409536480903625,0.8621266484260559
+Provision recall,0.36217948717948717,0.3798076923076923
+Provision precision,0.5854922279792746,0.5602836879432624
+Wrong/extra provisions,160.0,186.0
+Recall of provisions NOT named in question,0.03007518796992481,0.08771929824561403
+Provision recall (Q names none),0.07142857142857142,0.11224489795918367
+Case citations made,1.0,366.0
+  matching reference,1.0,5.0
+  seen in training data,0.0,218.0
+  unverifiable (not in any data),0.0,143.0
+Unverifiable-case rate,0.0,0.3907103825136612
+Answers citing >=1 case,1.0,160.0
+Avg answer length (words),448.2479674796748,341.5650406504065
+Truncated answers,1.0,0.0
+FT wins on ROUGE-L,,204/246

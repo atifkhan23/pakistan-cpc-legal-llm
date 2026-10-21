@@ -1,0 +1,50 @@
+{
+  "qa_pairs": 2467,
+  "citation_mentions": 5481,
+  "unique_citations": 2699,
+  "mentions_by_status": {
+    "in_given_part": 3861,
+    "elsewhere_in_book": 304,
+    "year_page_match_only": 119,
+    "absent_from_book": 1197
+  },
+  "share_by_status": {
+    "in_given_part": 0.7044,
+    "elsewhere_in_book": 0.0555,
+    "year_page_match_only": 0.0217,
+    "absent_from_book": 0.2184
+  },
+  "by_category": {
+    "DEFINITIONAL": {
+      "in_given_part": 1794,
+      "elsewhere_in_book": 141,
+      "absent_from_book": 497,
+      "year_page_match_only": 45
+    },
+    "COMPARATIVE": {
+      "in_given_part": 436,
+      "elsewhere_in_book": 28,
+      "absent_from_book": 139,
+      "year_page_match_only": 16
+    },
+    "PROCEDURAL": {
+      "in_given_part": 645,
+      "year_page_match_only": 23,
+      "absent_from_book": 266,
+      "elsewhere_in_book": 63
+    },
+    "CONSEQUENCE": {
+      "in_given_part": 411,
+      "elsewhere_in_book": 23,
+      "absent_from_book": 144,
+      "year_page_match_only": 16
+    },
+    "SCENARIO": {
+      "in_given_part": 575,
+      "year_page_match_only": 19,
+      "absent_from_book": 151,
+      "elsewhere_in_book": 49
+    }
+  },
+  "note": "in_given_part is only reported when --parts-map is given; otherwise those mentions count as elsewhere_in_book."
+}

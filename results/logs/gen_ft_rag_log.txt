@@ -1,0 +1,39 @@
+W1020 21:42:27.029000 811 torch/distributed/run.py:851] 
+W1020 21:42:27.029000 811 torch/distributed/run.py:851] *****************************************
+W1020 21:42:27.029000 811 torch/distributed/run.py:851] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1020 21:42:27.029000 811 torch/distributed/run.py:851] *****************************************
+[ft_rag rank 1] 123 questions to answer (0 already done)
+[ft_rag rank 0] 123 questions to answer (0 already done)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.55s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.55s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.17s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.15s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.20s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.72s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.58s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.76s/it]
+[ft_rag rank 0] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 1] 16/123
+[ft_rag rank 1] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 0] 16/123
+[ft_rag rank 0] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 1] 32/123
+[ft_rag rank 1] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 0] 32/123
+[ft_rag rank 0] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 1] 48/123
+[ft_rag rank 1] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 0] 48/123
+[ft_rag rank 0] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 1] 64/123
+[ft_rag rank 1] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 0] 64/123
+[ft_rag rank 0] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 1] 80/123
+[ft_rag rank 1] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 0] 80/123
+[ft_rag rank 0] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 1] 96/123
+[ft_rag rank 1] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 0] 96/123
+[ft_rag rank 0] out of memory with batch 16 -> splitting into 8 + 8
+[ft_rag rank 1] 112/123
+[ft_rag rank 0] 112/123
+[ft_rag rank 1] 123/123
+[ft_rag rank 1] DONE
+[ft_rag rank 0] 123/123
+[ft_rag rank 0] DONE
